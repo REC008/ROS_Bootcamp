@@ -50,6 +50,45 @@ ans . Request / reply is done via [services](http://wiki.ros.org/Services), whic
 
 
 
+19th 2020
+
+   a. *What is a subscriber?*
+
+ans. A node that wants to receive that information
+
+
+
+   b. *What is a publisher?*
+
+ans. A node that wants to share information
+
+
+
+   c. *What is the function of :*
+
+   i. **Roscore**
+
+ans. collection of nodes and programs that are pre-requisites of a ROS-based system. A roscore running in order for ROS nodes to communicate
+
+   ii. **Rosrun**
+
+ans. rosrun allows you to use the package name to directly run a node within a package 
+
+  iii. **Rostopic list**
+
+ans. rostopic contains the rostopic command-line tool for displaying debug information about ROS topics, including publishers, subscribers, publishing rate and ROS messages.
+
+  iv. **Rostopic echo**
+
+ans. rostopic echo shows the data published on a topic
+
+   v. **Rosmsg show**
+
+ans. rosmsg is a command-line tool for displaying information about ROS Message types
+
+
+
+
 
 
 
