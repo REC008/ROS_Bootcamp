@@ -88,6 +88,40 @@ ans. rosmsg is a command-line tool for displaying information about ROS Message 
 
 
 
+20th 2020
+
+   a. *What is the ROS navigation stack?*
+
+ans. A 2D navigation stack that takes in information from odometry, sensor streams, and a goal pose and outputs safe velocity commands that are sent to a mobile base
+
+
+
+b. *What is localization? What sensors are used for localization?*
+
+ans. Robot localization is the process of determining where a mobile robot is located with respect to its environment.  data received from IMUs, wheel encoders, GPS, laser, radar, ultrasonic and vision software algorithms to implement SLAM techniques
+
+
+
+ c. *What is the meaning of mapping?*
+
+ ans. can create a 2-D occupancy grid map from laser and pose data collected by a mobile robot. 
+
+
+
+   d. *What is tf in ROS and why is it needed?*
+
+ans. tf is a package that lets the user keep track of multiple coordinate frames over time. 
+
+
+
+   e. *What is the SLAM problem?*
+
+ans. SLAM is the computational problem of constructing or updating a map of an unknown environment while simultaneously keeping track of an agent's location within it.
+
+
+
+
+
 
 
 
